@@ -1,0 +1,8 @@
+version: "3"
+services:
+  php:
+   image: iot-smartoffice:latest
+   container_name: iot-smartoffice
+   ports:
+      - "81:80"
+   tty: true
